@@ -85,7 +85,7 @@ function UserPhotos() {
             )}
             <CardContent>
               <Typography variant="subtitle2" color="text.secondary">
-                📅 {formatDate(photo.date_time)}
+                {formatDate(photo.date_time)}
               </Typography>
 
               {photo.comments && photo.comments.length > 0 && (
